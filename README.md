@@ -40,8 +40,8 @@ O projeto roda em Python com Flask e OpenCV. Ao iniciar, ele abre um servidor lo
 Clone o repositorio:
 
 ```bash
-git clone https://github.com/system-auto-jk/CentralCFTV.git
-cd CentralCFTV
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
 ```
 
 Crie e ative um ambiente virtual:

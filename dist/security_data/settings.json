@@ -1,0 +1,71 @@
+{
+  "active_camera_id": "camera-2",
+  "cameras": [
+    {
+      "id": "camera-1",
+      "name": "Camera 1",
+      "settings": {
+        "camera_base_url": "http://192.168.1.71:8080",
+        "camera_url": "http://192.168.1.71:8080/video",
+        "width": 640,
+        "height": 480,
+        "armed": true,
+        "motion_enabled": true,
+        "motion_threshold": 1800,
+        "detection_zones": [],
+        "schedule_enabled": false,
+        "schedule_start": "00:00",
+        "schedule_end": "23:59",
+        "min_event_interval": 4,
+        "record_on_motion": false,
+        "pre_record_seconds": 5,
+        "post_record_seconds": 5,
+        "snapshot_on_motion": false,
+        "auto_flash": true,
+        "flash_on_dark_only": true,
+        "flash_hold_seconds": 8,
+        "flash_settle_seconds": 2,
+        "darkness_threshold": 70,
+        "show_motion_boxes": true,
+        "jpeg_quality": 75,
+        "record_fps": 15,
+        "record_every_n_frames": 1,
+        "notifications_enabled": true,
+        "notification_webhook_url": ""
+      }
+    },
+    {
+      "id": "camera-2",
+      "name": "Webcam",
+      "settings": {
+        "camera_base_url": "",
+        "camera_url": "0",
+        "width": 640,
+        "height": 480,
+        "armed": true,
+        "motion_enabled": true,
+        "motion_threshold": 1800,
+        "detection_zones": [],
+        "schedule_enabled": false,
+        "schedule_start": "00:00",
+        "schedule_end": "23:59",
+        "min_event_interval": 4,
+        "record_on_motion": false,
+        "pre_record_seconds": 5,
+        "post_record_seconds": 5,
+        "snapshot_on_motion": false,
+        "auto_flash": true,
+        "flash_on_dark_only": true,
+        "flash_hold_seconds": 8,
+        "flash_settle_seconds": 2,
+        "darkness_threshold": 82,
+        "show_motion_boxes": true,
+        "jpeg_quality": 75,
+        "record_fps": 15,
+        "record_every_n_frames": 1,
+        "notifications_enabled": true,
+        "notification_webhook_url": ""
+      }
+    }
+  ]
+}
